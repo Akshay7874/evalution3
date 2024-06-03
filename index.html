@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+       @media (width<600px){
+        body{
+            background-color: #7757F4;
+        }
+       }
+        body {
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .container {
+
+            max-width: 1440px;
+
+        }
+
+        .c1 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+        }
+
+        div.c1>div>button:nth-of-type(1) {
+            width: Hug (92px)px;
+            height: Hug (44px)px;
+            top: 13px;
+            left: 1048px;
+            padding: var(--25) var(--5) var(--25) var(--5);
+            gap: var(--2);
+            border-radius: var(--rounded-lg);
+            border: 1px solid #7757F4;
+            opacity: 0px;
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            text-align: left;
+            color: #7757F4;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 3px;
+
+
+
+        }
+
+        div.c1>div>button:nth-of-type(2) {
+            background: #7757F4;
+            width: 140px;
+            font-family: Inter;
+            font-size: 10px;
+            font-weight: 500;
+            line-height: 24px;
+            text-align: left;
+
+            height: 24px;
+            gap: 0px;
+            opacity: 0px;
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 5px;
+
+
+
+
+        }
+
+        .c2 {
+            display: flex;
+        }
+
+        .c2>img {
+            width: 549.15px;
+            height: 175.56px;
+            top: 232px;
+            left: 85px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Open Sans;
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 57.6px;
+            text-align: left;
+            padding-left: 85px;
+            padding-top: 156px;
+            padding-bottom: 260px;
+
+
+        }
+
+        .c2>img:nth-of-type(2) {
+            width: 747px;
+            height: 426px;
+            top: 160px;
+            left: 613px;
+            padding: 0px 0.01px 0px 0px;
+            gap: 0px;
+            opacity: 0px;
+
+        }
+
+        .c3>h1 {
+            width: 580px;
+            height: 46px;
+            top: 770px;
+            left: 100px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Open Sans;
+            font-size: 38px;
+            font-weight: 700;
+            line-height: 45.6px;
+            text-align: left;
+            margin-left: 100px;
+            margin-top: 100px;
+            color: #404040;
+            ;
+
+
+        }
+
+        .c3>img {
+            margin-left: 124px;
+            width: 130px;
+            height: 185px;
+            top: 960px;
+            left: 124px;
+            gap: 0px;
+            opacity: 0px;
+            margin-left: 124px;
+            margin-top: 30px;
+
+        }
+
+        .c3>img:nth-of-type(2) {
+            width: 223px;
+            height: 317px;
+            top: 901px;
+            left: 264px;
+            gap: 0px;
+            opacity: 0px;
+            margin-left: 0px;
+
+        }
+
+        .c3>img:nth-of-type(3) {
+            width: 450px;
+            height: 460px;
+            top: 770px;
+            left: 890px;
+            gap: 0px;
+            border-radius: 0px 0px 20px 0px;
+            border: 0.5px 0px 0px 0px;
+            opacity: 0px;
+            margin-left: 500px;
+
+        }
+
+        .c4>div {
+            width: 620px;
+            height: 411px;
+            top: 1370px;
+            left: 100px;
+            gap: 0px;
+            border-radius: 20px 0px 0px 0px;
+            opacity: 0px;
+            background: #7757F4;
+            margin-left: 100px;
+            margin-top: 100px;
+            border-radius: 5px;
+
+
+        }
+
+        .c4>div>h1 {
+            width: 385px;
+            height: 46px;
+            top: 1430px;
+            left: 162px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Open Sans;
+            font-size: 38px;
+            font-weight: 700;
+            line-height: 45.6px;
+            text-align: left;
+            color: #FFFFFF;
+            margin-left: 62px;
+            margin-top: 100px;
+            padding-top: 60px;
+
+
+        }
+
+        .c4>div>p {
+            width: 499px;
+            height: 120px;
+            top: 1511px;
+            left: 160px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Inter;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            text-align: left;
+            color: white;
+            margin-left: 60px;
+
+
+        }
+
+        .c4>div>button {
+            width: 130px;
+            height: 27px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Inter;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 27px;
+            text-align: left;
+            color: #7757F4;
+            background-color: white;
+            padding-left: 26px;
+            padding-right: 26px;
+            padding-top: 1px;
+
+            padding-bottom: 30px;
+            border-radius: 4px;
+            margin-left: 60px;
+
+
+        }
+
+        .c4 {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .c5>img {
+            width: 1144px;
+            height: 70px;
+            top: 1866px;
+            left: 148px;
+            gap: 0px;
+            border: 1px 0px 0px 0px;
+            opacity: 0px;
+            border: 1px solid #A089F7
+        }
+
+        .c6>img {
+            width: 457.52px;
+            height: 318.94px;
+            top: 2121px;
+            left: 176px;
+            gap: 0px;
+            border-radius: 10px 0px 0px 0px;
+            border: 0.5px 0px 0px 0px;
+            opacity: 0px;
+            border: 0.5px solid #D4D4D4 box-shadow: -8px 9px 9px 0px #0000001A;
+            margin-left: 176px;
+            margin-top: 100px;
+
+
+
+        }
+
+        .c6>img:nth-of-type(2) {
+            width: 561px;
+            height: 196px;
+            top: 2121px;
+            left: 779px;
+            gap: 0px;
+            opacity: 0px;
+            color: black 1;
+            margin-top: 0px;
+            align-items: center;
+
+
+        }
+
+        .c7>h2 {
+            text-align: center;
+            font-family: Open Sans;
+            font-size: 38px;
+            font-weight: 700;
+            line-height: 45.6px;
+            margin-top: 50px;
+
+
+
+
+
+
+        }
+
+        .c7>div>img {
+            width: 1457px;
+            height: 402px;
+            top: 2719px;
+            left: -9px;
+            gap: 0px;
+            opacity: 0px;
+            border: 0.5px solid #D4D4D4
+        }
+
+        .c7>div:nth-of-type(3) {
+            width: 1457px;
+            height: 364px;
+            top: 3688px;
+            left: -2px;
+            gap: 0px;
+            opacity: 0px;
+            background: #171717;
+
+
+        }
+
+        .c7>div:nth-of-type(3)>h1 {
+            
+            height: 92px;
+            top: 3346px;
+            left: 418px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Open Sans;
+            font-size: 38px;
+            font-weight: 700;
+            line-height: 45.6px;
+            text-align: center;
+
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <div class="container c1">
+            <img src="./Group 1000002570.png" alt="">
+            <div><button>Sign in</button>
+                <button>Create my resume</button>
+            </div>
+
+        </div>
+
+
+    </nav>
+    <main>
+        <div class="container c2">
+
+            <img src="./Welcome to AI Resume Maker ! Your path to professional success !.png" alt="">
+            <img src="./Frame 1000002570.jpg" alt="">
+
+        </div>
+
+    </main>
+    <section>
+        <div class="container c3">
+
+            <h1>Why choose AI resume maker? </h1>
+            <img src="./Template-3 2.jpg" alt="">
+            <img src="./Template-4@2x.jpg" alt="">
+            <img src="./Group 1000002635.jpg" alt="">
+
+
+        </div>
+        <div class="container c4">
+            <div>
+                <h1>Intelligent Guidance</h1>
+                <p>Our AI-powered platform provides step-by-step guidance as you build your resume. From selecting the
+                    right template to tailoring content, our AI ensures your resume reflects your unique strengths.</p>
+                <button>Try Now</button>
+            </div>
+            <div>
+                <img src="./Rectangle 155.jpg" alt="">
+            </div>
+        </div>
+        <div class="container c5">
+            <img style="margin-left: 170px; margin-top: 85px;" src="./Group 1000002616.png" alt="">
+        </div>
+        <div class="container c6">
+            <img src="./Group 1000002588.jpg" alt="">
+            <img src="./Group 1000002618.jpg" alt="">
+
+
+        </div>
+        <div class="container c7">
+            <h2>Explore the library</h2>
+            <div><img src="./Group 1000002609.png" alt=""></div>
+            <div><img src="./Group 1000002600.jpg" alt=""></div>
+            <div>
+               
+            </div>
+
+
+        </div>
+    </section>
+
+
+</body>
+
+</html>
